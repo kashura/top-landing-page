@@ -1,0 +1,28 @@
+.section-one {
+    display: flex;
+  }
+  
+ 
+  .section-one div {
+    background: #1F2937;
+    flex: 1;
+  }
+
+  .logo {
+      font-size: 24px;
+      color: #F9FAF8;
+  }
+
+  nav {
+      display: block;
+      font-size: 18px;
+      color: #E5E7EB;
+
+  }
+
+  .section-two div {
+      background: #3882F6;
+  }
+  
+
+  

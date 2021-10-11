@@ -1,11 +1,78 @@
-
-
-.navbar {
-  width: 100%;
-  padding: ;
-  margin: 100px;
+.flexbox {
+  display: flex;
+  flex-direction: column;
 }
- 
-  
 
-  
+.header-navigation {
+  display: flex;
+  padding: 10px 0px 75px 120px;
+  align-items: center;
+  background: #1F2937;
+}
+
+.navigation {
+  display: flex;
+  padding: 0px 120px 0px 0px;
+  margin-left: auto;
+}
+
+.header-logo {
+  display: flex;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+
+.logo {
+  display: flex;
+  padding: 0px 50px 0px 0px;
+  margin-right: auto;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100px;
+  padding: 10px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-header {
+  display: flex;
+  background: #1F2937;
+  padding: 10px 0px 75px 120px;
+}
+
+.hero-text {
+  padding: 0px 50px 75px 0px;
+}
+
+h1 {
+  font-size: 48px;
+  font-style: extra-bold;
+  color: #F9FAF8;
+  padding: 0px 50px 0px 0px;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+  padding: 0px 300px 0px 0px;
+}
+
+.hero-image {
+  display: flex;
+  padding: 0px 150px 0px 0px;
+}
+
+.welcomecall {
+  background: #3882F6;
+  font-size: 18px;
+  color: #F9FAF8;
+  width: 130px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}

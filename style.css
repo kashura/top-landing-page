@@ -50,7 +50,7 @@
 
 h1 {
   font-size: 48px;
-  font-style: extra-bold;
+  font-style: bolder;
   color: #F9FAF8;
   padding: 0px 50px 0px 0px;
 }
@@ -75,4 +75,51 @@ h1 {
   border: none;
   padding: 10px;
   font-weight: bold;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bolder;
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+}
+
+.info-images {
+  display: flex;
+  flex: 1;
+}
+
+.info-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-images img {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  border: 3px solid #3882F6;
+  border-radius: 15px;
+  padding: 5px 20px 0px 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 25px;
+  
+}
+
+.img-subtext {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-subtext p {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  padding: 0px 50px 0px 50px;
 }

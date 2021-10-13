@@ -123,3 +123,55 @@ h2 {
   width: 150px;
   padding: 0px 50px 0px 50px;
 }
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  background: #E5E7EB;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.quote-section p {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  height: auto;
+  width: 700px;
+  padding: 0px 500px 0px 500px;
+}
+
+.quote-section figcaption {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0px 450px 20px 0px;
+  font-size: 26px;
+}
+
+.calltoaction {
+  display: flex;
+  align-items: center;
+  margin: 50px 200px;
+  background-color: #3882F6;
+  padding: 0px 50px 75px 0px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+h3 {
+  text-align: left;
+  margin: 30px 0px 0px 50px;
+}
+
+.calltoaction p {
+  text-align: left;
+  margin: 5px 30px 30px 50px;
+}
+
+.footer p {
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+}
